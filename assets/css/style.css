@@ -1,0 +1,39 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+#cabecalho{
+    background: #BBBBBB;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.caixa{
+	position: relative;   
+	width: 100%;   
+}
+h1{
+    margin: 0;
+}
+.menu-navegacao{
+	position: absolute; 
+	top: 10px;           
+	margin-left: 285px;   
+}
+.menu-navegacao li{
+	display: inline;      
+	margin: 0 0 0 15px;   
+}
+.menu-navegacao a{
+	text-transform: uppercase; 
+	color: #000000;            
+	font-weight: bold;        
+	font-size: 22px;           
+	text-decoration: none;    
+}
+.menu-navegacao a:hover{                   
+	color: #C78C19;
+	text-decoration: underline;
+}
+.carros-luxo{
+    width: 100%;
+}
