@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;800;900&display=swap" rel="stylesheet">
     <title>Home | iCar - Sonhos Acessíveis</title>
 </head>
 <body>
     <header id="cabecalho">
-        <div class="caixa">
-            <h1 id="logo"><img src="assets/imgs/logo.jpeg" alt="imagem da logo"></h1>
-            <nav class="menu-navegacao">           
-                <ul class="menu">
-                    <li class="links-cabecalho"><a href="./index.html#logo">Home</a></li>
-                    <li class="links-cabecalho"><a href="./index.html#funciona">Como Funciona</a></li>
-                    <li class="links-cabecalho"><a href="./vantagens.html">Vantagens</a></li>
-                    <li class="links-cabecalho"><a href="./carros.html">Carros</a></li>
-                    <li class="links-cabecalho"><a href="./FAQ.html">Faq</a></li>
-                    <li class="links-cabecalho"><a href="./contato.html">Contato</a></li>
-                </ul>
-            </nav> 
-        </div>
+        <nav class="menu-navegacao">           
+            <ul class="menu">
+                <img src="assets/imgs/logo.jpeg" alt="imagem da logo">
+                <li class="links-cabecalho"><a href="./index.html#logo">Home</a></li>
+                <li class="links-cabecalho"><a href="./index.html#funciona">Como Funciona</a></li>
+                <li class="links-cabecalho"><a href="./vantagens.html">Vantagens</a></li>
+                <li class="links-cabecalho"><a href="./carros.html">Carros</a></li>
+                <li class="links-cabecalho"><a href="./FAQ.html">Faq</a></li>
+                <li class="links-cabecalho"><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav> 
     </header>
     <main>
-        <img class="banner" src="assets/imgs/VN2O1Z2.jpg">  
+        <div class="banner">
+            <h1>iCAR - Sonhos Acessíveis</h1>
+        </div>
         <section class="principal">
             <h2 class="titulo-principal">Sobre a Empresa</h2>
-            <img class="img-logo" src="assets/imgs/img sobre nos.jpeg" alt="imagem banner">
             <p class="paragrafo-principal">
                 O sonho de ter o seu Carro Esportivo está mais perto do que você imagina. Com a Auto Fraction, você adquire cotas do carro dos seus sonhos, conta com uma equipe profissional para o gerenciamento do patrimônio e só se preocupa em curtir tudo o que uma boa paixão sobre rodas pode oferecer. Em média, veículos esportivos são usados apenas 40 dias no ano (já contando os dias de semana). No modelo da Auto Fraction, você adquire seu carro preferido com mais dois cotistas, dividindo todas as despesas e usando-o de acordo com uma agenda previamente estabelecida. Você também pode ter mais cotas do mesmo carro ou diversas cotas de vários carros, trocando semanalmente e aproveitando todos os tipos de esportivos disponíveis. O veículo fica em nome dos cotistas por meio de uma SPE (Sociedade de Propósito Específico). A Auto Fraction cuida da composição da SPE e faz toda a administração da compra, manutenção, agendamento e venda do carro, que é disponibilizado um vez por semana para cada cotista. É só sentar e sair pilotando o seu Carro Esportivo. Vamos acelerar? Entre em contato, escolha seu modelo preferido e deixe o resto com a gente! 
             </p>
         </section>
         <section class="servicos">
              <h2 class="titulo-servicos">Serviços</h2>
-             <button id="btn-escolha" name="escolha">ESCOLHA O CARRO</button>
+             <div class="box-carro">
+                <h3>ESCOLHA O CARRO</h3>
+             </div">
+        </section>
+        <section>
+            <button id="btn-escolha" name="escolha">ESCOLHA O CARRO</button>
              <button id="btn-cota" name="cota">DEFINA SUA COTA</button>
              <button id="btn-reserve" name="reserve">RESERVE</button>
              <button id="btn-compra" name="finalizar">FINALIZE A COMPRA</button>
