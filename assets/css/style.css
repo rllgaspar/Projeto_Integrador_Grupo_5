@@ -57,17 +57,13 @@ li{
 }
 .paragrafo-principal{
 	padding-top: 10px;
-	padding: 0 15% 0 15%;
+	padding: 0 25% 0 25%;
 	text-align: justify;
 	font-size: medium;
-	line-height: 1.6em;
+	line-height: 2em;
 }
 .servicos{
 	width: 100%;
-	padding-bottom: 20px;
-	background-color: #BBBBBB;
-	border: 2px solid black;
-	border-radius: 20px;
 	display: flexbox;
 }
 .titulo-servicos{
@@ -75,58 +71,56 @@ li{
 	margin-top: 0px;
 	text-align: center;
 }
-.servicos .box-carro{
-	display: flexbox;
-	background-color: #383838;
+.boxes{
+	display: flex;
+	flex-flow: row;
+	align-content: space-between;
+	align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+	padding: 0 5% 0 5%;
+}
+
+.box{
+	display: flex;
 	border-radius: 5px;
-  	box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
   	padding: 30px;
-  	margin: 20px;
-  	width: 200px;
-	height: 220px;
+  	margin: 10px;
+  	width: 100%;
+	height: 320px;
+	flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+	color: #fff;
 }
-.servicos button{
-	font-size: 18px;
-	margin-left: 40px;
-	margin-right: 72px;
-	width: 250px;
-	height: 150px;
-	border-radius: 20px;
-	cursor: pointer;
-}
-#btn-escolha{
-	background-color: black;
-	color: white;
-}
-#btn-escolha:hover{
-	opacity: 70%;
-	color: #C78C19;
-}
-#btn-cota{
-	background-color: rgb(14, 87, 12);
-	color: white;
-}
-#btn-cota:hover{
-	opacity: 70%;
-	color: #C78C19;
-}
-#btn-reserve{
-	background-color: rgb(45, 11, 125);
-	color: white;
-}
-#btn-reserve:hover{
-	opacity: 70%;
-	color: #C78C19;
-}
-#btn-compra{
-	background-color: rgb(230, 34, 16);
-	color: white;
-}
-#btn-compra:hover{
-	opacity: 70%;
-	color: #C78C19;
+.box h3{
+	font-size: 25px;
+	letter-spacing: 0.1em;
 }
 .titulo-portifolio{
 	text-align: center;
 	font-size: 2em;
+}
+.portifolio{
+	display: flex;
+	flex-direction: row;
+    flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: center;
+	padding: 0 10% 0 10%;
+}
+.portifolio img{
+	height: 15.6em;
+	object-fit: cover;
+	margin: 5px;
+	border-radius: 5px;
+	transition: all 0.7s ease;
+}
+.portifolio img:hover {
+  transform: scale(1.8);
+  animation: forwards;
 }
