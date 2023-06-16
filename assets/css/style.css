@@ -35,7 +35,7 @@ li{
 /*BANNER PRINCIPAL - HOME*/
 .banner{
 	display: flex;
-	background-image: url("/VN2O1Z2.jpg");
+	background-image: url(./VN2O1Z2.jpg);
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
