@@ -1,6 +1,10 @@
 body{
     font-family: 'Montserrat', sans-serif;
+	color: #2a2a2a;
+	margin: 0px;
+	background-color: #e9e9e9;
 }
+/*CABEÇALHO/NAVEGAÇÃO*/
 li{
 	list-style: none;
 }
@@ -8,7 +12,6 @@ li{
 	margin: 0 15 0 15px;
 }
 .menu-navegacao ul{
-	background-color: #fff;
 	display: flex;
     justify-content: center;	
     align-items: center;
@@ -16,22 +19,23 @@ li{
 }
 .menu-navegacao ul li{
 	display: flexbox;
-	margin: 15px;
+	margin: 20px;
 }
 
 .menu-navegacao a{
 	text-transform: uppercase; 
-	color: #000000;            
+	color: #2a2a2a;            
 	font-weight: 600;        
 	text-decoration: none;    
 }
 .menu-navegacao a:hover{                   
-	color: #C78C19;
+	color: #DA504E;
 	text-decoration: none;
 }
+/*BANNER PRINCIPAL - HOME*/
 .banner{
 	display: flex;
-	background-image: url("/assets/imgs/VN2O1Z2.jpg");
+	background-image: url("/VN2O1Z2.jpg");
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
@@ -40,12 +44,44 @@ li{
 	font-family: Montserrat;
 	font-size: 2em;
 	font-weight: 900;
-	text-shadow: 1px 1px 2px black;
+	text-shadow: 1px 1px 2px #2a2a2a;
 	color: #fff;
 	text-transform: uppercase;
 }
+/*BANNER PRINCIPAL - COMO FUNCIONA*/
+.banner-funciona{
+	display: flex;
+	background-image: url("/BMW\ XM\ 2023\ interior.jpg");
+	background-size: cover;
+	background-position-x: center;
+	flex-direction: column;
+	align-items: center;
+	height: 508px;
+	font-family: Montserrat;
+	font-size: 2em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*BANNER PRINCIPAL - VANTAGENS*/
+.banner-vantagens{
+	display: flex;
+	background-image: url("/back-audi-r8-v10-gt.jpeg");
+	background-size: cover;
+	background-position-y: center ;
+	flex-direction: column;
+	align-items: center;
+	height: 508px;
+	font-family: Montserrat;
+	font-size: 2em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*CORPO*/
 .principal{
-	padding-bottom: 1em;
 	width: 100%;
 	margin-bottom: 1em;
 }
@@ -62,6 +98,7 @@ li{
 	font-size: medium;
 	line-height: 2em;
 }
+/*SERVIÇOS*/
 .servicos{
 	width: 100%;
 	display: flexbox;
@@ -101,6 +138,7 @@ li{
 	font-size: 25px;
 	letter-spacing: 0.1em;
 }
+/*PORTIFÓLIO*/
 .titulo-portifolio{
 	text-align: center;
 	font-size: 2em;
@@ -121,6 +159,81 @@ li{
 	transition: all 0.7s ease;
 }
 .portifolio img:hover {
-  transform: scale(1.8);
+  transform: scale(1.5);
   animation: forwards;
 }
+/*RODAPÉ*/
+.footer{
+	padding-top: 1em;
+}
+
+.footer img{
+	margin: 0 15 0 15px;
+}
+.footer ul{
+	display: flex;
+    justify-content: center;	
+    align-items: center;
+    flex-direction: row;
+}
+.footer ul li{
+	display: flexbox;
+	margin: 20px;
+}
+
+.footer a{
+	text-transform: uppercase; 
+	color: #2a2a2a;            
+	font-weight: 600;        
+	text-decoration: none;    
+}
+.footer a:hover{                   
+	color: #DA504E;
+	text-decoration: none;
+}
+/*BOTÕES PÁGINA COMO FUNCIONA*/
+
+.botoes{
+	display: flex;
+	justify-items: center;
+	flex-flow: nowrap;
+	flex-flow: nowrap;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+	margin-bottom: -2.3em;
+}
+.botoes button{
+	background-color:#691a1c;
+	padding: 5px;
+	border-radius: 20px;
+	border: none;
+	padding: 20px;
+	margin: 10px;
+	align-content: center;
+	width: 200px;
+}
+.botoes button a{
+	font-family: Montserrat;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 500;
+}
+/*TEXTO PRINCIPAL - PÁGINA VANTAGENS*/
+.principal{
+	width: 100%;
+	margin-bottom: 1em;
+}
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 1em;
+	clear: left;
+}
+.paragrafo-principal{
+	padding-top: 10px;
+	padding: 0 25% 0 25%;
+	text-align: justify;
+	font-size: medium;
+	line-height: 2em;
