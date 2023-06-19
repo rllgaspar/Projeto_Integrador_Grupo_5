@@ -1,72 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;800;900&display=swap" rel="stylesheet">
-        <title>Home | iCar - Sonhos Acessíveis</title>
-    </head>
-    <body>
-        <header id="cabecalho">
-            <nav class="menu-navegacao">           
-                <ul class="menu">
-                    <img src="assets/imgs/Logo_iCar_Positivo.png" width="120px" alt="imagem da logo">
-                    <li class="links-cabecalho"><a href="./index.html">Home</a></li>
-                    <li class="links-cabecalho"><a href="./comofunciona.html">Como Funciona</a></li>
-                    <li class="links-cabecalho"><a href="./vantagens.html">Vantagens</a></li>
-                    <li class="links-cabecalho"><a href="./carros.html">Carros</a></li>
-                    <li class="links-cabecalho"><a href="./FAQ.html">Faq</a></li>
-                    <li class="links-cabecalho"><a href="./contato.html">Contato</a></li>
-                </ul>
-            </nav> 
-        </header>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;800;900&display=swap" rel="stylesheet">
+    <title>Home | iCar - Sonhos Acessíveis</title>
+</head>
+<body>
+    <header id="cabecalho">
+        <nav class="menu-navegacao">           
+            <ul class="menu">
+                <img src="./assets/imgs/Logo_iCar_Positivo.png" width="120px" alt="imagem da logo">
+                <li class="links-cabecalho"><a href="./index.html">Home</a></li>
+                <li class="links-cabecalho"><a href="./comofunciona.html">Como Funciona</a></li>
+                <li class="links-cabecalho"><a href="./vantagens.html">Vantagens</a></li>
+                <li class="links-cabecalho"><a href="./carros.html">Carros</a></li>
+                <li class="links-cabecalho"><a href="./FAQ.html">Faq</a></li>
+                <li class="links-cabecalho"><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav> 
+    </header>
     <main>
-        <section>
-            <img src="./esportivos.png" height="900px">
-            <br><br>
-            <h2>BMW 430 CABRIO</h2>
-            <h3>2018</h3>
-            <br><br>
-            <img src="./bmw430.webp">
-            <br>
-            <img src="./bmw430_1.webp">
-            <img src="./bmw_2.webp">
-            <img src="./bmw_3.webp">
-            <h3>Valor da cota:</h3>
-            <h3>R$80.000,00</h3>
-            <p>
-                Fotos Reais do carro
-
-Uso imediato da cota, sem necessidade de esperar outros sócios.
-
-Interior Preto com Bordeaux
-            </p>
-        </section>
-        <section>
-            <br><br>
-            <h2>PORSCHE 718 BOXSTER</h2>
-            <h3>2018</h3>
-            <br><br>
-            <img src="./porsche718.webp">
-            <br>
-            <img src="./porsche_1.webp">
-            <img src="./porsche_2.webp">
-            <img src="./porsche_3.webp">
-            <h3>Valor da cota:</h3>
-            <h3>R$130.000,00</h3>
-            <p>
-                Fotos Reais do carro
-
-Uso imediato da cota, sem necessidade de esperar outros sócios.
-
-Interior Preto com Bordeaux
-            </p>
-        </section>
+        <div class="banner-carros">
+            <h1>Nossos veículos</h1>
+        </div>
+        <section id="listagem-carros">
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>BMW 430 CABRIO</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/bmw430.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/bmw430_1.webp">
+                    <img src="./assets/imgs/bmw_2.webp">
+                    <img src="./assets/imgs/bmw_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$80.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>PORSCHE 718 BOXSTER</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/porsche718.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/porsche_1.webp">
+                    <img src="./assets/imgs/porsche_2.webp">
+                    <img src="./assets/imgs/porsche_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$130.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>PORSCHE 718 BOXSTER</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/porsche718.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/porsche_1.webp">
+                    <img src="./assets/imgs/porsche_2.webp">
+                    <img src="./assets/imgs/porsche_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$130.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>PORSCHE 718 BOXSTER</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/porsche718.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/porsche_1.webp">
+                    <img src="./assets/imgs/porsche_2.webp">
+                    <img src="./assets/imgs/porsche_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$130.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>PORSCHE 718 BOXSTER</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/porsche718.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/porsche_1.webp">
+                    <img src="./assets/imgs/porsche_2.webp">
+                    <img src="./assets/imgs/porsche_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$130.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="titulo-card">
+                    <h2>PORSCHE 718 BOXSTER</h2>
+                    <h3>2018</h3>
+                </div>
+                <div class="imagem-card">
+                    <img src="./assets/imgs/porsche718.webp">
+                </div>
+                <div class="thumbs-card">
+                    <img src="./assets/imgs/porsche_1.webp">
+                    <img src="./assets/imgs/porsche_2.webp">
+                    <img src="./assets/imgs/porsche_3.webp">
+                </div>
+                <div class="valor-card">
+                    <h3>Valor da cota:</h3>
+                    <h2>R$130.000,00</h2>
+                </div>
+                <div class="obs-card">
+                <p>Fotos Reais do carro Uso imediato da cota, sem necessidade de esperar outros sócios.</p>
+                </div>
+            </div>
+            </section>
     </main>
     <footer>
         <nav>

@@ -35,7 +35,7 @@ li{
 /*BANNER PRINCIPAL - HOME*/
 .banner{
 	display: flex;
-	background-image: url(VN2O1Z2.jpg);
+	background-image: url(../imgs/VN2O1Z2.jpg);
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
@@ -51,7 +51,7 @@ li{
 /*BANNER PRINCIPAL - COMO FUNCIONA*/
 .banner-funciona{
 	display: flex;
-	background-image: url(./BMW\ XM\ 2023\ interior.jpg);
+	background-image: url(../imgs/BMW\ XM\ 2023\ interior.jpg);
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
@@ -67,7 +67,23 @@ li{
 /*BANNER PRINCIPAL - VANTAGENS*/
 .banner-vantagens{
 	display: flex;
-	background-image: url(/back-audi-r8-v10-gt.jpeg);
+	background-image: url(../imgs/back-audi-r8-v10-gt.jpeg);
+	background-size: cover;
+	background-position-y: center;
+	flex-direction: column;
+	align-items: center;
+	height: 508px;
+	font-family: Montserrat;
+	font-size: 2em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+/*BANNER PRINCIPAL - CARROS*/
+.banner-carros{
+	display: flex;
+	background-image: url(../imgs/DSCF0019_v2.webp);
 	background-size: cover;
 	background-position-y: center;
 	flex-direction: column;
@@ -237,4 +253,66 @@ li{
 	text-align: justify;
 	font-size: medium;
 	line-height: 2em;
+}
+/* CARROS */
+#listagem-carros{
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+.card{
+	display: flex;
+	justify-items: center;
+	flex-direction: column;
+	background-color: #fafafa;
+	width: 400px;
+	border-radius: 10px;
+	margin: 10px;
+	padding: 10px;
+	box-shadow: 5px 5px 10px #9a9a9a;
+}
+.imagem-card img{
+	width: 100%;
+	border-radius: 15px;
+}
+.thumbs-card{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+	padding: 0 10px 0 10px;
+}
+.thumbs-card img{
+	width: 33%;
+	margin: 5px;
+	border-radius: 5px;
+}
+.titulo-card{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.valor-card {
+	display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+	align-items: center 	;
+}
+.valor-card h2{
+	font-weight: 800;
+	font-size: xx-large;
+}
+.valor-card h3{
+	font-weight: 500;
+	font-size: medium;
+}
+.obs-card{
+	padding: 0 10px 0 10px;
+	text-align: justify;
+	font-weight: 400;
+	font-size: smaller;
 }
