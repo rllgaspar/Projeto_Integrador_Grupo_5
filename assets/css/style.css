@@ -319,8 +319,3 @@ li{
 	font-weight: 400;
 	font-size: smaller;
 }
-
-.contato{
-	display: block;
-	flex-direction: row;
-}
