@@ -114,6 +114,9 @@ li{
 	font-size: medium;
 	line-height: 2em;
 }
+.paragrafo-principal form label{
+	width: "100%";
+}
 /*SERVIÇOS*/
 .servicos{
 	width: 100%;
@@ -315,4 +318,9 @@ li{
 	text-align: center;
 	font-weight: 400;
 	font-size: smaller;
+}
+
+.contato{
+	display: block;
+	flex-direction: row;
 }
