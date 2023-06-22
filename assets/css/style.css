@@ -18,7 +18,7 @@ li{
     flex-direction: row;
 }
 .menu-navegacao ul li{
-	display: flexbox;
+	display: flex;
 	margin: 20px;
 }
 
@@ -183,6 +183,7 @@ li{
 }
 /*RODAPÉ*/
 .footer{
+	display: flex;
 	padding-top: 1em;
 }
 
@@ -196,7 +197,7 @@ li{
     flex-direction: row;
 }
 .footer ul li{
-	display: flexbox;
+	display: flex;
 	margin: 20px;
 }
 
@@ -318,4 +319,95 @@ li{
 	text-align: center;
 	font-weight: 400;
 	font-size: smaller;
+}
+/* Smartphones (600px para baixo) */
+@media screen and (max-width: 600px) {
+	
+	.menu-navegacao ul{
+		flex-direction: column;
+	}
+	.menu-navegacao ul li{
+		margin: 10px;
+		margin-left: 0;
+	}
+	.menu-navegacao img{
+		width: 200px;
+	}
+	.banner{
+		height: 170px;
+		margin: 10px;
+		font-size: 11px;
+	}
+	.titulo-principal{
+		text-align: center;
+		font-size: 20px;
+		margin: 30px;
+	}
+	.paragrafo-principal{
+		padding-top: 10px;
+		padding: 0 10% 0 10%;
+		font-size: 13px;
+	}
+	.titulo-servicos{
+		font-size: 20px;
+		margin: 30px;
+	}
+	.boxes{
+		flex-direction: column;
+		margin: 0 0 0 0;
+	}
+	.box{
+		width: 70%;
+		height: 50px;
+	}
+	.box h3{
+		font-size: 15px;
+	}
+	.box p{
+		font-size: 13px;
+	}
+	.titulo-portifolio{
+		font-size: 20px;
+		margin: 30px;
+	}
+	.portifolio{
+		flex-direction: column;
+		padding: 0 11% 0 11%;
+	}
+	.portifolio img{
+		margin: 8px;
+	}
+	.portifolio img:hover {
+	  transform: scale(1.27);
+	}
+	.footer{
+		margin-left: 1%;
+	}
+	.footer ul{
+		justify-content: flex-start;
+		justify-content: space-around;	
+	}
+	.footer a{           
+		font-weight: 400;           
+	}
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media screen and (min-width: 600px) {
+
+}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media screen and (min-width: 768px) {
+
+}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media screen and (min-width: 992px) {
+
+}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media screen and (min-width: 1200px) {
+
 }
