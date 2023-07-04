@@ -4,6 +4,8 @@ body{
 	margin: 0px;
 	background-color: #e9e9e9;
 }
+
+
 /*CABEÇALHO/NAVEGAÇÃO*/
 li{
 	list-style: none;
@@ -32,6 +34,8 @@ li{
 	color: #DA504E;
 	text-decoration: none;
 }
+
+
 /*BANNER PRINCIPAL - HOME*/
 .banner{
 	display: flex;
@@ -48,6 +52,8 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
+
+
 /*BANNER PRINCIPAL - COMO FUNCIONA*/
 .banner-funciona{
 	display: flex;
@@ -64,6 +70,8 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
+
+
 /*BANNER PRINCIPAL - VANTAGENS*/
 .banner-vantagens{
 	display: flex;
@@ -80,6 +88,8 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
+
+
 /*BANNER PRINCIPAL - CARROS*/
 .banner-carros{
 	display: flex;
@@ -96,6 +106,8 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
+
+
 /*CORPO*/
 .principal{
 	width: 100%;
@@ -117,6 +129,8 @@ li{
 .paragrafo-principal form label{
 	width: "100%";
 }
+
+
 /*SERVIÇOS*/
 .servicos{
 	width: 100%;
@@ -157,6 +171,8 @@ li{
 	font-size: 25px;
 	letter-spacing: 0.1em;
 }
+
+
 /*PORTIFÓLIO*/
 .titulo-portifolio{
 	text-align: center;
@@ -181,6 +197,8 @@ li{
   transform: scale(1.5);
   animation: forwards;
 }
+
+
 /*RODAPÉ*/
 .footer{
 	padding-top: 1em;
@@ -210,6 +228,8 @@ li{
 	color: #DA504E;
 	text-decoration: none;
 }
+
+
 /*BOTÕES PÁGINA COMO FUNCIONA*/
 
 .botoes{
@@ -239,6 +259,8 @@ li{
 	color: #fff;
 	font-weight: 500;
 }
+
+
 /*TEXTO PRINCIPAL - PÁGINA VANTAGENS*/
 .principal{
 	width: 100%;
@@ -257,6 +279,8 @@ li{
 	font-size: medium;
 	line-height: 2em;
 }
+
+
 /* CARROS */
 #listagem-carros{
 	display: flex;
