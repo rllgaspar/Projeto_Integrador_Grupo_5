@@ -7,7 +7,7 @@ let btnUm = (e)=>{
     btns[0].style.background = '#ff5349'
     btns[0].style.transition = 'all 0.1s'
     btns[0].style.boxShadow = '0px 1px 6px black'
-}
+};
 let btnDois = (e)=>{
     btns[1].style.background = '#ff5349'
     btns[1].style.transition = 'all 0.1s'
@@ -34,3 +34,4 @@ btns[1].addEventListener('mouseout', ()=>{
 btns[2].addEventListener('mouseout', ()=>{
     btns[2].style = ''
 });
+
