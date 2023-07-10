@@ -433,3 +433,32 @@ li{
 	box-shadow: 2px 2px 5px #9a9a9a;
 }
 
+/*PAGINA CONTATO*/
+
+.banner-contato{
+	display: flex;
+	background-image: url(../imgs/contato.jpg);
+	background-size: cover;
+	background-position-x: center;
+	flex-direction: column;
+	align-items: center;
+	height: 508px;
+	font-family: Montserrat;
+	font-size: 2em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+#form-contato{
+
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+.input-contato{
+	width: 50%;
+}
