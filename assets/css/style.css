@@ -20,7 +20,7 @@ li{
     flex-direction: row;
 }
 .menu-navegacao ul li{
-	display: flexbox;
+	display: flex;
 	margin: 20px;
 }
 
@@ -327,11 +327,13 @@ li{
     justify-content: space-evenly;
     flex-wrap: nowrap;
     flex-direction: row;
-	align-items: center 	;
+	align-items: center;
+
 }
 .valor-card h2{
 	font-weight: 800;
 	font-size: xx-large;
+	margin-block: 0.25em;
 }
 .valor-card h3{
 	font-weight: 500;
@@ -343,5 +345,23 @@ li{
 	font-weight: 400;
 	font-size: smaller;
 }
-
+.obs-card p{
+	margin-block: 0.25em;
+}
+.obs-btn{
+	display: flex;
+	justify-content: center;
+	margin-block: 0.8em;
+}
+.obs-btn button{
+	background-color:#DA504E;
+	font-family: Montserrat;
+	font-weight: "400";
+	color: #fff;
+	width: 200px;
+	height: 50px;
+	border-radius: 5px;
+	border: none;
+	box-shadow: 2px 2px 5px #9a9a9a;
+}
 
