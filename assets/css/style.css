@@ -432,7 +432,6 @@ li{
 	border-radius: 5px;
 	border: none;
 	box-shadow: 2px 2px 5px #9a9a9a;
-	cursor: pointer;
 }
 
 /*PAGINA CONTATO*/
@@ -454,13 +453,15 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
-#form{
-
+.form{
+	display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
 	font-family: Montserrat;
 	font-size: 1em;
 	font-weight: 900;
-	text-shadow: 1px 1px 2px #2a2a2a;
-	color: #fff;
+	color: #2a2a2a;
 	text-transform: uppercase;
 }
 .input-contato{
@@ -470,39 +471,25 @@ fieldset{
 	font-family: Montserrat;
 	font-size: 1em;
 	font-weight: 900;
-	text-shadow: 1px 1px 2px #2a2a2a;
-	color: #fff;
+	color: #2a2a2a
 	text-transform: uppercase;
 	border-radius: 10px;
-
 	box-shadow: 2px 2px 5px #000;	
 	width: 50%;
-	
-}
-.mensagem1{
-	font-family: Montserrat;
-	font-size: 1em;
-	font-weight: 900;
-	text-shadow: 1px 1px 2px #2a2a2a;
-	color: #fff;
-	text-transform: uppercase;
-	border-radius: 10px;
-	
-	box-shadow: 2px 2px 5px #000;	
 	
 }
 #enviar{
 	font-family: Montserrat;
 	font-size: 1em;
 	font-weight: 900;
-	text-shadow: 1px 1px 2px #2a2a2a;
 	color: #fff;
 	text-transform: uppercase;
 	border-radius: 10px;
 
 	box-shadow: 2px 2px 5px #000;	
-	width: 52,5%;
-
+	width: 10em;
+    height: 2em;
+    background-color: green;
 }
 
 
