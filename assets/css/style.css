@@ -381,6 +381,7 @@ li{
 	flex-flow: row;
 	justify-content: center;
 	flex-wrap: wrap;
+	z-index: 1;
 }
 .card{
 	display: flex;
@@ -459,3 +460,143 @@ li{
 	box-shadow: 2px 2px 5px #9a9a9a;
 }
 
+/* POPUP CARROS*/
+#popup{
+	display: flex;
+	position: fixed;
+	top: 20%;
+	backdrop-filter: blur(5px);
+}
+#fechar{
+	text-decoration: none;
+	font-family: Montserrat;
+	font-weight: 700;
+	font-size: large;
+	position: fixed;
+	top: 1.7%;
+	right: 25%;
+	color:#ff0400;
+
+}
+#listagem-bmw-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-lambo-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-porsche-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-chevy-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-supra-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-mustang-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+#listagem-audi-aberto{
+	display: none;
+	flex-flow: row;
+	justify-content: center;
+	flex-wrap: nowrap;
+    font-family: Montserrat;
+}
+.card-aberto{
+	display: flex; 
+	justify-items: center;
+    align-items: center;
+    background-color: #fafafa;
+    width: 50%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    justify-content: flex-start;
+    align-content: center;
+	z-index: 1 ;
+}
+.lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.imagem-card-aberto img{
+	max-width: 600px;
+	border-radius: 15px;
+}
+.thumbs-card-aberto{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+	max-width: 600px;
+	padding: 0 10px 0 10px;
+}
+.thumbs-card-aberto img{
+	width: 33%;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.lado-direito{
+	display: flex;
+    flex-direction: column;
+   	align-items: stretch;
+	width: 50%;
+	margin: 15px;
+}
+
+.titulo-card-aberto{
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.obs-card-aberto{
+	font-weight: 400;
+	font-size: smaller;
+}
+.valor-card-aberto {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.valor-card-aberto h2{
+	font-weight: 800;
+	font-size: xx-large;
+	margin-block: 0.25em;
+}
+.valor-card-aberto h3{
+	font-weight: 500;
+	font-size: medium;
+}

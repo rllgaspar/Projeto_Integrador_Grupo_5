@@ -2,10 +2,10 @@ body{
     background-color: #9a9a9a;
 }
 #listagem-carros-abertos{
-	display: flex;
+	display: none;
 	flex-flow: row;
 	justify-content: center;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
     font-family: Montserrat;
 }
 .card-aberto{
@@ -13,21 +13,22 @@ body{
     justify-items: center;
     align-items: center;
     background-color: #fafafa;
-    width: 60%;
+    width: 50%;
     border-radius: 10px;
     margin: 10px;
     padding: 10px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-content: center;
 }
-.lado-direito{
-	display: flex;
+.lado-esquerdo{
+    display: flex;
     flex-direction: column;
-   	align-items: flex-start;
+    align-items: center;
+    width: 50%;
 }
 
 .imagem-card-aberto img{
-	width: 100%;
+	max-width: 600px;
 	border-radius: 15px;
 }
 .thumbs-card-aberto{
@@ -35,6 +36,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-content: center;
+	max-width: 600px;
 	padding: 0 10px 0 10px;
 }
 .thumbs-card-aberto img{
@@ -42,12 +44,24 @@ body{
 	margin: 5px;
 	border-radius: 5px;
 }
+
+.lado-direito{
+	display: flex;
+    flex-direction: column;
+   	align-items: stretch;
+	width: 50%;
+}
+
 .titulo-card-aberto{
 	display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+}
+.obs-card-aberto{
+	font-weight: 400;
+	font-size: smaller;
 }
 .valor-card-aberto {
     display: flex;
@@ -64,14 +78,4 @@ body{
 .valor-card-aberto h3{
 	font-weight: 500;
 	font-size: medium;
-}
-.obs-card-aberto{
-	padding: 0 10px 0 10px;
-	text-align: center;
-	font-weight: 400;
-	font-size: smaller;
-}
-.obs-card-aberto p{
-	margin-block: 0.25em;
-
 }
