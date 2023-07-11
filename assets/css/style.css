@@ -539,6 +539,7 @@ fieldset{
 	justify-content: center;
 	flex-wrap: nowrap;
     font-family: Montserrat;
+	width: 1920px;
 }
 #listagem-supra-aberto{
 	display: none;
