@@ -436,6 +436,8 @@ li{
 
 /*PAGINA CONTATO*/
 
+/*PAGINA CONTATO*/
+
 .banner-contato{
 	display: flex;
 	background-image: url(../imgs/contato.jpg);
@@ -451,7 +453,59 @@ li{
 	color: #fff;
 	text-transform: uppercase;
 }
-#form-contato{
+#form{
+
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+}
+.input-contato{
+	width: 98%;
+}
+fieldset{
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+	box-shadow: 2px 2px 5px #000;	
+	width: 50%;
+	
+}
+.mensagem1{
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 10px;
+	
+	box-shadow: 2px 2px 5px #000;	
+	
+}
+#enviar{
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 900;
+	text-shadow: 1px 1px 2px #2a2a2a;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+	box-shadow: 2px 2px 5px #000;	
+	width: 52,5%;
+
+}
+
+
+
 /* POPUP CARROS*/
 #popup{
 	display: flex;
@@ -459,7 +513,7 @@ li{
 	top: 20%;
 	backdrop-filter: blur(5px);
 }
-#fechar{
+.fechar{
 	text-decoration: none;
 	font-family: Montserrat;
 	font-weight: 700;
@@ -540,7 +594,8 @@ li{
 }
 
 .imagem-card-aberto img{
-	max-width: 600px;
+	width: 100%;
+	max-width: 515px;
 	border-radius: 15px;
 }
 .thumbs-card-aberto{
@@ -548,7 +603,8 @@ li{
     flex-direction: row;
     justify-content: center;
     align-content: center;
-	max-width: 600px;
+	width: 100%;
+	max-width: 460px;
 	padding: 0 10px 0 10px;
 }
 .thumbs-card-aberto img{
@@ -565,16 +621,9 @@ li{
 	margin: 15px;
 }
 
-	font-family: Montserrat;
-	font-size: 1em;
-	font-weight: 900;
-	text-shadow: 1px 1px 2px #2a2a2a;
-	color: #fff;
-	text-transform: uppercase;
-}
-.input-contato{
-	width: 50%;
-}
+
+
+
 .titulo-card-aberto{
 	display: flex;
     flex-direction: row;
