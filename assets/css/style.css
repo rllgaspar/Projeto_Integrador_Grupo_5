@@ -432,6 +432,7 @@ li{
 	border-radius: 5px;
 	border: none;
 	box-shadow: 2px 2px 5px #9a9a9a;
+	cursor: pointer;
 }
 
 /*PAGINA CONTATO*/

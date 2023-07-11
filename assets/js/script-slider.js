@@ -9,6 +9,7 @@ const btnAnteriorPortifolio = document.getElementById('btn-anterior-portifolio')
 const btnProximoPortifolio = document.getElementById('btn-proximo-portifolio')
 let idx = 0;
 
+// Carrossel do BANNER
 function esconderSlider(){
     slider.forEach(item => item.classList.remove('on'))
 }
@@ -36,7 +37,10 @@ function anteriorSlider() {
     }
     mostrarSlider()
 }
+// Fim Carrossel do BANNER
 
+
+// Carrossel do PORTIFOLIO
 function portifolioSliderProximo(){
     idx++;
     if(idx > imagenPortifolio.length -3){
@@ -52,7 +56,7 @@ function portifolioSliderAnterior(e){
     }
     imagens.style.transform = `translateX(${-idx * 400}px)`;
 }
-
+// FIm Carrossel do PORTIFOLIO
 
 setInterval(proximoSlider, 5000)
 
