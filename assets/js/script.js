@@ -69,12 +69,12 @@ btns[1].addEventListener('mouseover', btnDois)
 btns[2].addEventListener('mouseover', btnTres)
 
 btns[0].addEventListener('mouseout', ()=>{
-    btns[0].style = ''
+    btns[0].style = '';
 });
 btns[1].addEventListener('mouseout', ()=>{
-    btns[1].style = ''
+    btns[1].style = '';
 });
 btns[2].addEventListener('mouseout', ()=>{
-    btns[2].style = ''
+    btns[2].style = '';
 });
 
