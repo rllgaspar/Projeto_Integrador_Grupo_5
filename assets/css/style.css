@@ -595,6 +595,7 @@ fieldset{
 
 .imagem-card-aberto img{
 	width: 100%;
+	max-width: 515px;
 	border-radius: 15px;
 }
 .thumbs-card-aberto{
@@ -602,7 +603,8 @@ fieldset{
     flex-direction: row;
     justify-content: center;
     align-content: center;
-	max-width: 600px;
+	width: 100%;
+	max-width: 460px;
 	padding: 0 10px 0 10px;
 }
 .thumbs-card-aberto img{
