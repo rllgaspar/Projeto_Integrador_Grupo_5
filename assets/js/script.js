@@ -17,8 +17,13 @@ let popSupra = document.getElementById('listagem-supra-aberto')
 let popMustang = document.getElementById('listagem-mustang-aberto')
 let popAudi = document.getElementById('listagem-audi-aberto')
 
-let fechar = document.getElementsByClassName('fechar')
-let popup = document.getElementsByClassName('popup')
+let fecharBMW = document.getElementById('fechar-bmw')
+let fecharLambo = document.getElementById('fechar-lambo')
+let fecharPorsche = document.getElementById('fechar-porsche')
+let fecharChevy = document.getElementById('fechar-chevy')
+let fecharSupra = document.getElementById('fechar-supra')
+let fecharMustang = document.getElementById('fechar-mustang')
+let fecharAudi = document.getElementById('fechar-audi')
 
 //Funções
 
@@ -60,7 +65,27 @@ audi.addEventListener('click', ()=>{
     popAudi.style.display = 'flex';
 })
 
-
+fecharBMW.addEventListener('click', ()=>{
+    popBMW.style.display = 'none';
+})
+fecharLambo.addEventListener('click', ()=>{
+    popLambo.style.display = 'none';
+})
+fecharPorsche.addEventListener('click', ()=>{
+    popPorsche.style.display = 'none';
+})
+fecharChevy.addEventListener('click', ()=>{
+    popChevy.style.display = 'none';
+})
+fecharSupra.addEventListener('click', ()=>{
+    popSupra.style.display = 'none';
+})
+fecharMustang.addEventListener('click', ()=>{
+    popMustang.style.display = 'none';
+})
+fecharAudi.addEventListener('click', ()=>{
+    popAudi.style.display = 'none';
+})
 
 //Eventos
 

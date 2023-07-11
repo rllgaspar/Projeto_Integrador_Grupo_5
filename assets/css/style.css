@@ -513,7 +513,7 @@ fieldset{
 	top: 20%;
 	backdrop-filter: blur(5px);
 }
-#fechar{
+.fechar{
 	text-decoration: none;
 	font-family: Montserrat;
 	font-weight: 700;
@@ -594,7 +594,7 @@ fieldset{
 }
 
 .imagem-card-aberto img{
-	max-width: 600px;
+	width: 100%;
 	border-radius: 15px;
 }
 .thumbs-card-aberto{
