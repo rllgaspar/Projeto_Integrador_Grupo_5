@@ -4,6 +4,47 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/javascript">
+            function validar(){
+                var nome = formuser.nome.value;
+                var email = formuser.email.value;
+                var tel = formuser.tel.value;
+                var mensagem = foruser.mensagem.value;
+
+                if ( nome == ""){
+                    alert('Digite seu nome');
+                    formuser.nome.focus();
+                    return false
+                }
+                if(nome.length <= 2){
+                    alert('Digite um nome válido');
+                    foruser.nome.focus();
+                    return false;
+                }
+                if(email == "" ){
+                    alert('Digite seu email');
+                    foruser.email.focus();
+                    return false
+                }
+                if( email.indexOf('@') == -1 ){
+                    alert('Digite um email válido');
+                    foruser.email.focus();
+                    return false
+                }
+                if(tel == ""){
+                    alert('Digite seu telefone');
+                    foruser.tel.focus();
+                    return false
+                }
+                if(tel.length <8 ){
+                    alert('Digite um número de telefone válido');
+                    foruser.tel.focus();
+                    return false
+                }
+             
+                
+            }
+        </script>
         <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico">
         <link rel="stylesheet" href="./assets/css/style.css">  
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,40 +71,53 @@
             <h2>Fale Conosco</h2>
         </div>
         <section class="principal">
-            <form>
+            <div>
             <p class="paragrafo-principal">
                 Entre em contato conosco. Tire suas dúvidas e faça seus comentários.
             </p>
-            </form>
+            </div>
         </section>
             <section>
-                <fieldset>
+                
                    
-         <form id="form-contato">
+         <form name="formuser" action="enviar.php" method="POST">
+
+             <fieldset>
              <label for="nome">Nome completo: </label>
              <br>
-             <input type="text" name="nome" id="nome" class="input-contato">
+             <input type="text" name="nome" id="nome" class="input-contato required"  >
+             <span role="alert" id="nameError" aria-hidden="true"> Digite seu nome </span>
+            
+            </fieldset>
              <br><br>
-
+            
+            <fieldset>
              <label for="email">E-mail: </label>
              <br>
-             <input type="text" name="email" id="email" class="input-contato">
+             <input type="text" name="email" id="email" class="input-contato required" >            
+            </fieldset>
              <br><br>
-
+            
+             <fieldset>
              <label for="tel">Telefone: </label>
              <br>
-             <input type="tel" name="tel" id="tel" class="input-contato">
+             <input type="tel" name="tel" id="tel" class="input-contato required" >
+            </fieldset>
              <br><br>
 
+             <fieldset>
              <label for="mensagem">Mensagem</label>
              <br>
-             <textarea style="width: 50%;" name="mensagem" id="mensagem" rows="10" placeholder="Digite sua mensagem"></textarea>
+             <textarea style="width: 98%;" name="mensagem" id="mensagem" rows="10" placeholder="Digite sua mensagem" ></textarea>
+            </fieldset>
              <br><br>
 
-             <p><input type="submit" nome="acao" value="Enviar" id="enviar"></p>
+             <button type="submit" nome="acao"  id="enviar"  onclick="return validar()">Enviar</button>
+
+             
             
          </form>
-            </fieldset>
+            
          <br>
         
             <div>
@@ -73,7 +127,6 @@
             </div>
        
         </section>
-            
 
     </main>
     <footer class="footer">
@@ -87,4 +140,5 @@
         </nav>
      </footer>
 </body>
+
 </html>
