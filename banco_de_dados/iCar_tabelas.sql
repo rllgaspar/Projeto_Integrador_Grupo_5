@@ -29,7 +29,7 @@ CREATE TABLE endereco(
 );
 
 CREATE TABLE carros(
- renavam INT PRIMARY KEY  NOT NULL,
+ renavam INT PRIMARY KEY NOT NULL,
  chassi INT  NOT NULL,  
  placa VARCHAR(7)  NOT NULL,  
  modelo VARCHAR(60)  NOT NULL,  
@@ -41,9 +41,7 @@ CREATE TABLE carros(
  ano_de_fabricacao INT  NOT NULL,    
  motor INT  NOT NULL,    
  revisoes INT  NOT NULL,
- CPF INT,
  idGerente INT,
- FOREIGN KEY(CPF) REFERENCES cliente(CPF),
  FOREIGN KEY(idGerente) REFERENCES gerente(idGerente)
 ); 
 
@@ -58,9 +56,9 @@ CREATE TABLE especificacoes(
   FOREIGN KEY(renavam) REFERENCES carros(renavam)
 );
 
-CREATE TABLE Cota( 
- numero_de_Cotas INT NOT NULL,  
- id_cotas SERIAL PRIMARY KEY,  
+CREATE TABLE Cota(  
+ id_cotas SERIAL PRIMARY KEY,
+ numero_de_Cotas INT NOT NULL, 
  valor_cotas INT NOT NULL,  
  CPF INT,  
  idGerente INT,  
@@ -75,3 +73,11 @@ CREATE TABLE gerente(
  funcao VARCHAR(40) NOT NULL,  
  nome VARCHAR(60) NOT NULL
 ); 
+
+ALTER TABLE cliente ALTER cpf TYPE BIGINT;
+ALTER TABLE contatos ALTER telefone TYPE BIGINT;
+ALTER TABLE contatos ALTER telefone_2 TYPE BIGINT;
+ALTER TABLE contatos ALTER cpf TYPE BIGINT;
+ALTER TABLE endereco ALTER cpf TYPE BIGINT;
+ALTER TABLE carros ALTER chassi TYPE VARCHAR(15);
+ALTER TABLE cota ALTER cpf TYPE BIGINT;
