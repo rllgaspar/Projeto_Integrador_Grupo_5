@@ -105,6 +105,7 @@ li{
 	margin-left: 1200px;
 }
 
+
 /*BANNER PRINCIPAL - COMO FUNCIONA*/
 .banner-funciona{
 	display: flex;
@@ -261,10 +262,7 @@ li{
 	border-radius: 5px;
 	transition: all 0.7s ease;
 }
-/*.portifolio img:hover {
-  transform: scale(1.5);
-  animation: forwards;
-}*/
+
 
 
 /*RODAPÉ*/
@@ -471,7 +469,7 @@ fieldset{
 	font-family: Montserrat;
 	font-size: 1em;
 	font-weight: 900;
-	color: #2a2a2a
+	color: #2a2a2a;
 	text-transform: uppercase;
 	border-radius: 10px;
 	box-shadow: 2px 2px 5px #000;	
