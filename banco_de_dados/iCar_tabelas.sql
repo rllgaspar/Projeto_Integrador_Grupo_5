@@ -1,3 +1,9 @@
+CREATE TABLE gerente( 
+ idGerente INT PRIMARY KEY NOT NULL,  
+ funcao VARCHAR(40) NOT NULL,  
+ nome VARCHAR(60) NOT NULL
+); 
+
 CREATE TABLE cliente(
  CPF INT PRIMARY KEY not NULL,
  Nome VARCHAR(60) NOT NULL,
@@ -68,11 +74,7 @@ CREATE TABLE Cota(
  FOREIGN KEY(renavam) REFERENCES carros(renavam)
 ); 
 
-CREATE TABLE gerente( 
- idGerente INT PRIMARY KEY NOT NULL,  
- funcao VARCHAR(40) NOT NULL,  
- nome VARCHAR(60) NOT NULL
-); 
+
 
 ALTER TABLE cliente ALTER cpf TYPE BIGINT;
 ALTER TABLE contatos ALTER telefone TYPE BIGINT;
