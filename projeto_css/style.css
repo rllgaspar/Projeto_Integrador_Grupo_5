@@ -109,7 +109,7 @@ li{
 /*BANNER PRINCIPAL - COMO FUNCIONA*/
 .banner-funciona{
 	display: flex;
-	background-image: url(../imgs/BMW\ XM\ 2023\ interior.jpg);
+	background-image: url(../assets/imgs/BMW\ XM\ 2023\ interior.jpg);
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
@@ -127,7 +127,7 @@ li{
 /*BANNER PRINCIPAL - VANTAGENS*/
 .banner-vantagens{
 	display: flex;
-	background-image: url(../imgs/back-audi-r8-v10-gt.jpeg);
+	background-image: url(../assets/imgs/back-audi-r8-v10-gt.jpeg);
 	background-size: cover;
 	background-position-y: center;
 	flex-direction: column;
@@ -145,7 +145,7 @@ li{
 /*BANNER PRINCIPAL - CARROS*/
 .banner-carros{
 	display: flex;
-	background-image: url(../imgs/DSCF0019_v2.webp);
+	background-image: url(../assets/imgs/DSCF0019_v2.webp);
 	background-size: cover;
 	background-position-y: center;
 	flex-direction: column;
@@ -438,7 +438,8 @@ li{
 
 .banner-contato{
 	display: flex;
-	background-image: url(../imgs/contato.jpg);
+	background-image: url(../assets/imgs/contato.jpg);
+	
 	background-size: cover;
 	background-position-x: center;
 	flex-direction: column;
