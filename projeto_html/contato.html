@@ -4,49 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <script type="text/javascript">
-            function validar(){
-                var nome = formuser.nome.value;
-                var email = formuser.email.value;
-                var tel = formuser.tel.value;
-               
-
-                if ( nome == ""){
-                    alert('Digite seu nome');
-                    formuser.nome.focus();
-                    return false
-                }
-                if(nome.length <= 2){
-                    alert('Digite um nome válido');
-                    foruser.nome.focus();
-                    return false;
-                }
-                if(email == "" ){
-                    alert('Digite seu email');
-                    foruser.email.focus();
-                    return false
-                }
-                if( email.indexOf('@') == -1 ){
-                    alert('Digite um email válido');
-                    foruser.email.focus();
-                    return false
-                }
-                if(tel == ""){
-                    alert('Digite seu telefone');
-                    foruser.tel.focus();
-                    return false
-                }
-                if(tel.length <8 ){
-                    alert('Digite um número de telefone válido');
-                    foruser.tel.focus();
-                    return false
-                }
-                
-                
-            }
-        </script>
-        <link rel="icon" type="image/x-icon" href="./assets/imgs/favicon.ico">
-        <link rel="stylesheet" href="./assets/css/style.css">  
+        <script src="/projeto_javascript/js/validacao.js" defer></script>
+        <link rel="icon" type="image/x-icon" href="/assets/imgs/favicon.ico">
+        <link rel="stylesheet" href="/projeto_css/style.css">  
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500;600;800;900&display=swap" rel="stylesheet">
@@ -56,7 +16,7 @@
         <header id="cabecalho">
             <nav class="menu-navegacao">           
                 <ul class="menu">
-                    <img src="./assets/imgs/Logo_iCar_Positivo.png" width="120px" alt="imagem da logo">
+                    <img src="/assets/imgs/Logo_iCar_Positivo.png" width="120px" alt="imagem da logo">
                     <li class="links-cabecalho"><a href="./index.html">Home</a></li>
                     <li class="links-cabecalho"><a href="./comofunciona.html">Como Funciona</a></li>
                     <li class="links-cabecalho"><a href="./vantagens.html">Vantagens</a></li>
@@ -121,9 +81,9 @@
          <br>
         
             <div>
-                <img src="./assets/imgs/whatsapp.png" width="120px" alt="imagem da logo">
-                <li class="links-cabecalho"><a href="./assets/imgs/whatsapp.png"></a></li>
-              <a href="./assets/imgs/whatsapp.png"></a>
+                <img src="/assets/imgs/whatsapp.png" width="120px" alt="imagem da logo">
+                <li class="links-cabecalho"><a href="/assets/imgs/whatsapp.png"></a></li>
+              <a href="/assets/imgs/whatsapp.png"></a>
             </div>
        
         </section>
